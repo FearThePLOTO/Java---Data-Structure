@@ -1,18 +1,23 @@
-## Getting Started
+# Java List Implementation
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This repository contains a simple implementation of a **dynamic List data structure** in Java.  
+The `List` class is built from scratch without relying on Java's built-in `ArrayList`, making it a great resource for learning about how lists work internally.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## 📂 Package
+```
+Java.Projects.list_1.src
+```
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 📌 Features
+- ✅ Dynamic resizing when capacity is reached  
+- ✅ Add elements at the end of the list  
+- ✅ Get and set elements by index  
+- ✅ Remove elements by index (with automatic shifting)  
+- ✅ Check if empty or full  
+- ✅ Clear all elements  
+- ✅ Get current size  
+- ✅ Custom `toString` method for easy printing  
