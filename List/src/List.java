@@ -50,6 +50,19 @@ public class List<item> {
         this.items = newItems;
     }
 
+    public boolean isEmpty() {
+        return this.size == 0;
+    }
+    
+    public void clear() {
+        this.items = (item[]) new Object[this.capacity];
+        this.size = 0;
+    }
+
+    public boolean isFull() {
+        return this.size == this.capacity;
+    }
+
     @Override
     public String toString(){
         StringBuilder sb = new StringBuilder();
